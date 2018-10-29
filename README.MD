@@ -28,6 +28,25 @@ Now simply repack it! `./we r scene.pkg`<br>
 Now there's the freshly repacked file!<br>
 ![image](https://i.imgur.com/r3YyzZo.png)
 Copy all of the old files except scene.pkg into a freshly created project and paste in your repacked `scene.pkg`<br><br>
+## MAC
+Required:<br>
+* Macport or Brew (for install libboost)
+* Xcode and the Xcode Command Line Tools
+* libboost
+# Usage
+1. install Xcode and the Xcode Command Line Tools
+
+2. install libboost : `brew install boost`(When you installed Brew) or `sudo port install boost`(When you installed Macport)
+
+2-1. If you don't have brew : `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null`
+
+2-2. If you don't have Macport : Install [Macport](https://www.macports.org/) and reboot.
+
+3. `make linux`
+
+4. `./we x scene.pkg`
+
+5. `./we r scene.pkg`
 ## That's it!
 Now you've successfully modified and repacked the workshop item. <br>You can now, after all of this, use it as a your wallpaper.<br>
 Thanks for tuning in!
