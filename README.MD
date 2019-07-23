@@ -5,9 +5,9 @@ Any content that you download from the Steam Workshop belongs to it's respective
 # Building
 ## Windows
 *ugh* MinGW didn't do the job. If you have a way to build it, feel free to create an issue!<br>
-~~You can also use WCL~~
+~~You can also use W̶S̶L̶~~
 ## Linux
-*Or Windows with WCL*<br>
+*Or Windows with WSL*<br>
 libraries required:<br>
 * libboost
 * libstdc++
